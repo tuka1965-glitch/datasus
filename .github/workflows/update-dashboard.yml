@@ -1,0 +1,40 @@
+name: Update DataSUS dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Rebuild data
+        run: |
+          node datasus_collector.mjs
+          node export_datasus_dashboard_data.mjs
+
+      - name: Commit dashboard data
+        run: |
+          if git diff --quiet -- docs/data/datasus_cid10.json; then
+            echo "No dashboard changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/datasus_cid10.json
+          git commit -m "Update DataSUS dashboard data"
+          git push

@@ -1,0 +1,48 @@
+{
+  "source": {
+    "name": "Painel de Monitoramento da Mortalidade CID-10",
+    "system": "SIM",
+    "page_url": "https://svs.aids.gov.br/daent/centrais-de-conteudos/paineis-de-monitoramento/mortalidade/cid10/",
+    "api_url": "https://svs.aids.gov.br/services2/v1/mortalidade/cid10/"
+  },
+  "queries": [
+    {
+      "name": "localidade",
+      "endpoint": "localidade",
+      "description": "Obitos totais por localidade, com Brasil, regioes e UFs.",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025],
+      "params": {
+        "local": 1,
+        "abrangencia": 1,
+        "pais": 76,
+        "indicador": 200001,
+        "categoria": 1,
+        "estatistica": 1,
+        "lococor": 0,
+        "atestante": 0,
+        "grupoetario": 2000,
+        "racacor": 0,
+        "sexo": 0
+      }
+    },
+    {
+      "name": "sexo",
+      "endpoint": "sexo",
+      "description": "Obitos totais no Brasil por sexo.",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025],
+      "params": {
+        "local": 1,
+        "abrangencia": 1,
+        "pais": 76,
+        "indicador": 200001,
+        "categoria": 1,
+        "estatistica": 1,
+        "lococor": 0,
+        "atestante": 0,
+        "grupoetario": 2000,
+        "racacor": 0,
+        "sexo": 0
+      }
+    }
+  ]
+}

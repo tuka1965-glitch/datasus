@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel DataSUS - Mortalidade CID-10</title>
+    <link rel="stylesheet" href="./styles.css?v=7" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">Monitoramento DataSUS</p>
+          <h1 id="datasus-title">Mortalidade CID-10</h1>
+        </div>
+        <div class="metadata">
+          <span id="datasus-source"></span>
+          <span id="datasus-generated-at"></span>
+          <a class="nav-link" href="https://svs.aids.gov.br/daent/centrais-de-conteudos/paineis-de-monitoramento/mortalidade/cid10/">Fonte DataSUS</a>
+        </div>
+      </header>
+
+      <section id="datasus-summary" class="summary-grid" aria-label="Resumo"></section>
+
+      <section class="content-grid">
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Evolucao anual</h2>
+          </div>
+          <div class="chart-shell">
+            <canvas id="datasus-year-chart"></canvas>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Serie mensal nacional</h2>
+          </div>
+          <div class="chart-shell">
+            <canvas id="datasus-month-chart"></canvas>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Localidades no ano mais recente</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Localidade</th>
+                  <th>Abrangencia</th>
+                  <th>Obitos</th>
+                </tr>
+              </thead>
+              <tbody id="datasus-locality-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Sexo no ano mais recente</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Sexo</th>
+                  <th>Obitos</th>
+                  <th>Participacao</th>
+                </tr>
+              </thead>
+              <tbody id="datasus-sex-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./datasus.js?v=1"></script>
+  </body>
+</html>

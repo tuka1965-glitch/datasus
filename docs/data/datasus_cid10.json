@@ -1,0 +1,2555 @@
+{
+  "generatedAt": "2026-05-20T13:02:45.720Z",
+  "title": "Mortalidade CID-10",
+  "source": {
+    "pageUrl": "https://svs.aids.gov.br/daent/centrais-de-conteudos/paineis-de-monitoramento/mortalidade/cid10/",
+    "apiUrl": "https://svs.aids.gov.br/services2/v1/mortalidade/cid10/",
+    "name": "Sistema de Informações sobre Mortalidade",
+    "acronym": "SIM",
+    "sourceDate": "Maio de 2026"
+  },
+  "filters": {
+    "local": "Obitos por residencia",
+    "indicator": "Obitos totais",
+    "statistic": "Numero de obitos"
+  },
+  "totals": {
+    "latestYear": 2025,
+    "latestTotal": 1528085,
+    "previousYear": 2024,
+    "previousTotal": 1532015,
+    "yearOverYear": -0.26
+  },
+  "totalsByYear": [
+    {
+      "year": 2020,
+      "total": 1556824
+    },
+    {
+      "year": 2021,
+      "total": 1832649
+    },
+    {
+      "year": 2022,
+      "total": 1544266
+    },
+    {
+      "year": 2023,
+      "total": 1465610
+    },
+    {
+      "year": 2024,
+      "total": 1532015
+    },
+    {
+      "year": 2025,
+      "total": 1528085
+    }
+  ],
+  "latestByLocality": [
+    {
+      "uid": 76,
+      "name": "Brasil",
+      "scope": "País",
+      "total": 1528085,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 124307
+        },
+        {
+          "month": "Fev",
+          "value": 111764
+        },
+        {
+          "month": "Mar",
+          "value": 122779
+        },
+        {
+          "month": "Abr",
+          "value": 122434
+        },
+        {
+          "month": "Mai",
+          "value": 141267
+        },
+        {
+          "month": "Jun",
+          "value": 141783
+        },
+        {
+          "month": "Jul",
+          "value": 141907
+        },
+        {
+          "month": "Ago",
+          "value": 134226
+        },
+        {
+          "month": "Set",
+          "value": 122932
+        },
+        {
+          "month": "Out",
+          "value": 123384
+        },
+        {
+          "month": "Nov",
+          "value": 118002
+        },
+        {
+          "month": "Dez",
+          "value": 123300
+        }
+      ]
+    },
+    {
+      "uid": 3,
+      "name": "Sudeste",
+      "scope": "Região",
+      "total": 693547,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 56073
+        },
+        {
+          "month": "Fev",
+          "value": 50625
+        },
+        {
+          "month": "Mar",
+          "value": 54800
+        },
+        {
+          "month": "Abr",
+          "value": 55080
+        },
+        {
+          "month": "Mai",
+          "value": 65290
+        },
+        {
+          "month": "Jun",
+          "value": 65249
+        },
+        {
+          "month": "Jul",
+          "value": 64322
+        },
+        {
+          "month": "Ago",
+          "value": 61833
+        },
+        {
+          "month": "Set",
+          "value": 55214
+        },
+        {
+          "month": "Out",
+          "value": 55427
+        },
+        {
+          "month": "Nov",
+          "value": 53159
+        },
+        {
+          "month": "Dez",
+          "value": 56475
+        }
+      ]
+    },
+    {
+      "uid": 2,
+      "name": "Nordeste",
+      "scope": "Região",
+      "total": 394080,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 32832
+        },
+        {
+          "month": "Fev",
+          "value": 29276
+        },
+        {
+          "month": "Mar",
+          "value": 32707
+        },
+        {
+          "month": "Abr",
+          "value": 31961
+        },
+        {
+          "month": "Mai",
+          "value": 35053
+        },
+        {
+          "month": "Jun",
+          "value": 34730
+        },
+        {
+          "month": "Jul",
+          "value": 36044
+        },
+        {
+          "month": "Ago",
+          "value": 33935
+        },
+        {
+          "month": "Set",
+          "value": 32147
+        },
+        {
+          "month": "Out",
+          "value": 32642
+        },
+        {
+          "month": "Nov",
+          "value": 31123
+        },
+        {
+          "month": "Dez",
+          "value": 31630
+        }
+      ]
+    },
+    {
+      "uid": 35,
+      "name": "São Paulo",
+      "scope": "Unidade da federação",
+      "total": 354173,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 27624
+        },
+        {
+          "month": "Fev",
+          "value": 25428
+        },
+        {
+          "month": "Mar",
+          "value": 28326
+        },
+        {
+          "month": "Abr",
+          "value": 28374
+        },
+        {
+          "month": "Mai",
+          "value": 33473
+        },
+        {
+          "month": "Jun",
+          "value": 33536
+        },
+        {
+          "month": "Jul",
+          "value": 32968
+        },
+        {
+          "month": "Ago",
+          "value": 31818
+        },
+        {
+          "month": "Set",
+          "value": 27879
+        },
+        {
+          "month": "Out",
+          "value": 28172
+        },
+        {
+          "month": "Nov",
+          "value": 27295
+        },
+        {
+          "month": "Dez",
+          "value": 29280
+        }
+      ]
+    },
+    {
+      "uid": 4,
+      "name": "Sul",
+      "scope": "Região",
+      "total": 236877,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 18334
+        },
+        {
+          "month": "Fev",
+          "value": 16637
+        },
+        {
+          "month": "Mar",
+          "value": 18608
+        },
+        {
+          "month": "Abr",
+          "value": 18170
+        },
+        {
+          "month": "Mai",
+          "value": 21780
+        },
+        {
+          "month": "Jun",
+          "value": 23888
+        },
+        {
+          "month": "Jul",
+          "value": 23589
+        },
+        {
+          "month": "Ago",
+          "value": 21191
+        },
+        {
+          "month": "Set",
+          "value": 19017
+        },
+        {
+          "month": "Out",
+          "value": 18745
+        },
+        {
+          "month": "Nov",
+          "value": 18219
+        },
+        {
+          "month": "Dez",
+          "value": 18699
+        }
+      ]
+    },
+    {
+      "uid": 31,
+      "name": "Minas Gerais",
+      "scope": "Unidade da federação",
+      "total": 157918,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 13261
+        },
+        {
+          "month": "Fev",
+          "value": 11572
+        },
+        {
+          "month": "Mar",
+          "value": 12225
+        },
+        {
+          "month": "Abr",
+          "value": 12350
+        },
+        {
+          "month": "Mai",
+          "value": 15138
+        },
+        {
+          "month": "Jun",
+          "value": 15261
+        },
+        {
+          "month": "Jul",
+          "value": 14913
+        },
+        {
+          "month": "Ago",
+          "value": 14127
+        },
+        {
+          "month": "Set",
+          "value": 12788
+        },
+        {
+          "month": "Out",
+          "value": 12351
+        },
+        {
+          "month": "Nov",
+          "value": 11747
+        },
+        {
+          "month": "Dez",
+          "value": 12185
+        }
+      ]
+    },
+    {
+      "uid": 33,
+      "name": "Rio de Janeiro",
+      "scope": "Unidade da federação",
+      "total": 152095,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 12825
+        },
+        {
+          "month": "Fev",
+          "value": 11539
+        },
+        {
+          "month": "Mar",
+          "value": 11921
+        },
+        {
+          "month": "Abr",
+          "value": 12053
+        },
+        {
+          "month": "Mai",
+          "value": 13935
+        },
+        {
+          "month": "Jun",
+          "value": 13872
+        },
+        {
+          "month": "Jul",
+          "value": 13685
+        },
+        {
+          "month": "Ago",
+          "value": 13386
+        },
+        {
+          "month": "Set",
+          "value": 12182
+        },
+        {
+          "month": "Out",
+          "value": 12324
+        },
+        {
+          "month": "Nov",
+          "value": 11837
+        },
+        {
+          "month": "Dez",
+          "value": 12536
+        }
+      ]
+    },
+    {
+      "uid": 29,
+      "name": "Bahia",
+      "scope": "Unidade da federação",
+      "total": 105702,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 8731
+        },
+        {
+          "month": "Fev",
+          "value": 7811
+        },
+        {
+          "month": "Mar",
+          "value": 8463
+        },
+        {
+          "month": "Abr",
+          "value": 8425
+        },
+        {
+          "month": "Mai",
+          "value": 9350
+        },
+        {
+          "month": "Jun",
+          "value": 9598
+        },
+        {
+          "month": "Jul",
+          "value": 9860
+        },
+        {
+          "month": "Ago",
+          "value": 9294
+        },
+        {
+          "month": "Set",
+          "value": 8686
+        },
+        {
+          "month": "Out",
+          "value": 8751
+        },
+        {
+          "month": "Nov",
+          "value": 8292
+        },
+        {
+          "month": "Dez",
+          "value": 8441
+        }
+      ]
+    },
+    {
+      "uid": 5,
+      "name": "Centro-Oeste",
+      "scope": "Região",
+      "total": 104950,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 8754
+        },
+        {
+          "month": "Fev",
+          "value": 7739
+        },
+        {
+          "month": "Mar",
+          "value": 8437
+        },
+        {
+          "month": "Abr",
+          "value": 8725
+        },
+        {
+          "month": "Mai",
+          "value": 10025
+        },
+        {
+          "month": "Jun",
+          "value": 9250
+        },
+        {
+          "month": "Jul",
+          "value": 9458
+        },
+        {
+          "month": "Ago",
+          "value": 8995
+        },
+        {
+          "month": "Set",
+          "value": 8644
+        },
+        {
+          "month": "Out",
+          "value": 8636
+        },
+        {
+          "month": "Nov",
+          "value": 7897
+        },
+        {
+          "month": "Dez",
+          "value": 8390
+        }
+      ]
+    },
+    {
+      "uid": 1,
+      "name": "Norte",
+      "scope": "Região",
+      "total": 98631,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 8314
+        },
+        {
+          "month": "Fev",
+          "value": 7487
+        },
+        {
+          "month": "Mar",
+          "value": 8227
+        },
+        {
+          "month": "Abr",
+          "value": 8498
+        },
+        {
+          "month": "Mai",
+          "value": 9119
+        },
+        {
+          "month": "Jun",
+          "value": 8666
+        },
+        {
+          "month": "Jul",
+          "value": 8494
+        },
+        {
+          "month": "Ago",
+          "value": 8272
+        },
+        {
+          "month": "Set",
+          "value": 7910
+        },
+        {
+          "month": "Out",
+          "value": 7934
+        },
+        {
+          "month": "Nov",
+          "value": 7604
+        },
+        {
+          "month": "Dez",
+          "value": 8106
+        }
+      ]
+    },
+    {
+      "uid": 43,
+      "name": "Rio Grande do Sul",
+      "scope": "Unidade da federação",
+      "total": 97168,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 7472
+        },
+        {
+          "month": "Fev",
+          "value": 6778
+        },
+        {
+          "month": "Mar",
+          "value": 7732
+        },
+        {
+          "month": "Abr",
+          "value": 7644
+        },
+        {
+          "month": "Mai",
+          "value": 8930
+        },
+        {
+          "month": "Jun",
+          "value": 10163
+        },
+        {
+          "month": "Jul",
+          "value": 10046
+        },
+        {
+          "month": "Ago",
+          "value": 8664
+        },
+        {
+          "month": "Set",
+          "value": 7790
+        },
+        {
+          "month": "Out",
+          "value": 7539
+        },
+        {
+          "month": "Nov",
+          "value": 7274
+        },
+        {
+          "month": "Dez",
+          "value": 7136
+        }
+      ]
+    },
+    {
+      "uid": 41,
+      "name": "Paraná",
+      "scope": "Unidade da federação",
+      "total": 87664,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 6799
+        },
+        {
+          "month": "Fev",
+          "value": 6164
+        },
+        {
+          "month": "Mar",
+          "value": 6874
+        },
+        {
+          "month": "Abr",
+          "value": 6497
+        },
+        {
+          "month": "Mai",
+          "value": 8107
+        },
+        {
+          "month": "Jun",
+          "value": 8707
+        },
+        {
+          "month": "Jul",
+          "value": 8511
+        },
+        {
+          "month": "Ago",
+          "value": 7856
+        },
+        {
+          "month": "Set",
+          "value": 7057
+        },
+        {
+          "month": "Out",
+          "value": 6943
+        },
+        {
+          "month": "Nov",
+          "value": 6817
+        },
+        {
+          "month": "Dez",
+          "value": 7332
+        }
+      ]
+    },
+    {
+      "uid": 26,
+      "name": "Pernambuco",
+      "scope": "Unidade da federação",
+      "total": 70330,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 5893
+        },
+        {
+          "month": "Fev",
+          "value": 5241
+        },
+        {
+          "month": "Mar",
+          "value": 5833
+        },
+        {
+          "month": "Abr",
+          "value": 5596
+        },
+        {
+          "month": "Mai",
+          "value": 6110
+        },
+        {
+          "month": "Jun",
+          "value": 6141
+        },
+        {
+          "month": "Jul",
+          "value": 6549
+        },
+        {
+          "month": "Ago",
+          "value": 6182
+        },
+        {
+          "month": "Set",
+          "value": 5702
+        },
+        {
+          "month": "Out",
+          "value": 5764
+        },
+        {
+          "month": "Nov",
+          "value": 5570
+        },
+        {
+          "month": "Dez",
+          "value": 5749
+        }
+      ]
+    },
+    {
+      "uid": 23,
+      "name": "Ceará",
+      "scope": "Unidade da federação",
+      "total": 63870,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 5296
+        },
+        {
+          "month": "Fev",
+          "value": 4741
+        },
+        {
+          "month": "Mar",
+          "value": 5632
+        },
+        {
+          "month": "Abr",
+          "value": 5368
+        },
+        {
+          "month": "Mai",
+          "value": 5905
+        },
+        {
+          "month": "Jun",
+          "value": 5468
+        },
+        {
+          "month": "Jul",
+          "value": 5585
+        },
+        {
+          "month": "Ago",
+          "value": 5235
+        },
+        {
+          "month": "Set",
+          "value": 5078
+        },
+        {
+          "month": "Out",
+          "value": 5285
+        },
+        {
+          "month": "Nov",
+          "value": 5123
+        },
+        {
+          "month": "Dez",
+          "value": 5154
+        }
+      ]
+    },
+    {
+      "uid": 42,
+      "name": "Santa Catarina",
+      "scope": "Unidade da federação",
+      "total": 52045,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 4063
+        },
+        {
+          "month": "Fev",
+          "value": 3695
+        },
+        {
+          "month": "Mar",
+          "value": 4002
+        },
+        {
+          "month": "Abr",
+          "value": 4029
+        },
+        {
+          "month": "Mai",
+          "value": 4743
+        },
+        {
+          "month": "Jun",
+          "value": 5018
+        },
+        {
+          "month": "Jul",
+          "value": 5032
+        },
+        {
+          "month": "Ago",
+          "value": 4671
+        },
+        {
+          "month": "Set",
+          "value": 4170
+        },
+        {
+          "month": "Out",
+          "value": 4263
+        },
+        {
+          "month": "Nov",
+          "value": 4128
+        },
+        {
+          "month": "Dez",
+          "value": 4231
+        }
+      ]
+    },
+    {
+      "uid": 52,
+      "name": "Goiás",
+      "scope": "Unidade da federação",
+      "total": 46912,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 3916
+        },
+        {
+          "month": "Fev",
+          "value": 3556
+        },
+        {
+          "month": "Mar",
+          "value": 3750
+        },
+        {
+          "month": "Abr",
+          "value": 3749
+        },
+        {
+          "month": "Mai",
+          "value": 4430
+        },
+        {
+          "month": "Jun",
+          "value": 4252
+        },
+        {
+          "month": "Jul",
+          "value": 4225
+        },
+        {
+          "month": "Ago",
+          "value": 3999
+        },
+        {
+          "month": "Set",
+          "value": 3806
+        },
+        {
+          "month": "Out",
+          "value": 4001
+        },
+        {
+          "month": "Nov",
+          "value": 3454
+        },
+        {
+          "month": "Dez",
+          "value": 3774
+        }
+      ]
+    },
+    {
+      "uid": 15,
+      "name": "Pará",
+      "scope": "Unidade da federação",
+      "total": 46673,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 3917
+        },
+        {
+          "month": "Fev",
+          "value": 3594
+        },
+        {
+          "month": "Mar",
+          "value": 3976
+        },
+        {
+          "month": "Abr",
+          "value": 4246
+        },
+        {
+          "month": "Mai",
+          "value": 4268
+        },
+        {
+          "month": "Jun",
+          "value": 4103
+        },
+        {
+          "month": "Jul",
+          "value": 3867
+        },
+        {
+          "month": "Ago",
+          "value": 3846
+        },
+        {
+          "month": "Set",
+          "value": 3665
+        },
+        {
+          "month": "Out",
+          "value": 3768
+        },
+        {
+          "month": "Nov",
+          "value": 3575
+        },
+        {
+          "month": "Dez",
+          "value": 3848
+        }
+      ]
+    },
+    {
+      "uid": 21,
+      "name": "Maranhão",
+      "scope": "Unidade da federação",
+      "total": 40460,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 3394
+        },
+        {
+          "month": "Fev",
+          "value": 2937
+        },
+        {
+          "month": "Mar",
+          "value": 3496
+        },
+        {
+          "month": "Abr",
+          "value": 3318
+        },
+        {
+          "month": "Mai",
+          "value": 3888
+        },
+        {
+          "month": "Jun",
+          "value": 3576
+        },
+        {
+          "month": "Jul",
+          "value": 3526
+        },
+        {
+          "month": "Ago",
+          "value": 3345
+        },
+        {
+          "month": "Set",
+          "value": 3290
+        },
+        {
+          "month": "Out",
+          "value": 3305
+        },
+        {
+          "month": "Nov",
+          "value": 3133
+        },
+        {
+          "month": "Dez",
+          "value": 3252
+        }
+      ]
+    },
+    {
+      "uid": 25,
+      "name": "Paraíba",
+      "scope": "Unidade da federação",
+      "total": 30053,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 2703
+        },
+        {
+          "month": "Fev",
+          "value": 2261
+        },
+        {
+          "month": "Mar",
+          "value": 2442
+        },
+        {
+          "month": "Abr",
+          "value": 2394
+        },
+        {
+          "month": "Mai",
+          "value": 2524
+        },
+        {
+          "month": "Jun",
+          "value": 2648
+        },
+        {
+          "month": "Jul",
+          "value": 2898
+        },
+        {
+          "month": "Ago",
+          "value": 2593
+        },
+        {
+          "month": "Set",
+          "value": 2461
+        },
+        {
+          "month": "Out",
+          "value": 2450
+        },
+        {
+          "month": "Nov",
+          "value": 2420
+        },
+        {
+          "month": "Dez",
+          "value": 2259
+        }
+      ]
+    },
+    {
+      "uid": 32,
+      "name": "Espírito Santo",
+      "scope": "Unidade da federação",
+      "total": 29361,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 2363
+        },
+        {
+          "month": "Fev",
+          "value": 2086
+        },
+        {
+          "month": "Mar",
+          "value": 2328
+        },
+        {
+          "month": "Abr",
+          "value": 2303
+        },
+        {
+          "month": "Mai",
+          "value": 2744
+        },
+        {
+          "month": "Jun",
+          "value": 2580
+        },
+        {
+          "month": "Jul",
+          "value": 2756
+        },
+        {
+          "month": "Ago",
+          "value": 2502
+        },
+        {
+          "month": "Set",
+          "value": 2365
+        },
+        {
+          "month": "Out",
+          "value": 2580
+        },
+        {
+          "month": "Nov",
+          "value": 2280
+        },
+        {
+          "month": "Dez",
+          "value": 2474
+        }
+      ]
+    },
+    {
+      "uid": 22,
+      "name": "Piauí",
+      "scope": "Unidade da federação",
+      "total": 23147,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 1806
+        },
+        {
+          "month": "Fev",
+          "value": 1763
+        },
+        {
+          "month": "Mar",
+          "value": 1921
+        },
+        {
+          "month": "Abr",
+          "value": 1918
+        },
+        {
+          "month": "Mai",
+          "value": 2085
+        },
+        {
+          "month": "Jun",
+          "value": 1970
+        },
+        {
+          "month": "Jul",
+          "value": 1955
+        },
+        {
+          "month": "Ago",
+          "value": 2015
+        },
+        {
+          "month": "Set",
+          "value": 1907
+        },
+        {
+          "month": "Out",
+          "value": 2031
+        },
+        {
+          "month": "Nov",
+          "value": 1913
+        },
+        {
+          "month": "Dez",
+          "value": 1863
+        }
+      ]
+    },
+    {
+      "uid": 24,
+      "name": "Rio Grande do Norte",
+      "scope": "Unidade da federação",
+      "total": 23046,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 1929
+        },
+        {
+          "month": "Fev",
+          "value": 1841
+        },
+        {
+          "month": "Mar",
+          "value": 1906
+        },
+        {
+          "month": "Abr",
+          "value": 2016
+        },
+        {
+          "month": "Mai",
+          "value": 2095
+        },
+        {
+          "month": "Jun",
+          "value": 1952
+        },
+        {
+          "month": "Jul",
+          "value": 2040
+        },
+        {
+          "month": "Ago",
+          "value": 1914
+        },
+        {
+          "month": "Set",
+          "value": 1883
+        },
+        {
+          "month": "Out",
+          "value": 1910
+        },
+        {
+          "month": "Nov",
+          "value": 1746
+        },
+        {
+          "month": "Dez",
+          "value": 1814
+        }
+      ]
+    },
+    {
+      "uid": 51,
+      "name": "Mato Grosso",
+      "scope": "Unidade da federação",
+      "total": 22944,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 2038
+        },
+        {
+          "month": "Fev",
+          "value": 1740
+        },
+        {
+          "month": "Mar",
+          "value": 1917
+        },
+        {
+          "month": "Abr",
+          "value": 1949
+        },
+        {
+          "month": "Mai",
+          "value": 2299
+        },
+        {
+          "month": "Jun",
+          "value": 1936
+        },
+        {
+          "month": "Jul",
+          "value": 1986
+        },
+        {
+          "month": "Ago",
+          "value": 1882
+        },
+        {
+          "month": "Set",
+          "value": 1844
+        },
+        {
+          "month": "Out",
+          "value": 1774
+        },
+        {
+          "month": "Nov",
+          "value": 1765
+        },
+        {
+          "month": "Dez",
+          "value": 1814
+        }
+      ]
+    },
+    {
+      "uid": 27,
+      "name": "Alagoas",
+      "scope": "Unidade da federação",
+      "total": 22904,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 1845
+        },
+        {
+          "month": "Fev",
+          "value": 1651
+        },
+        {
+          "month": "Mar",
+          "value": 1858
+        },
+        {
+          "month": "Abr",
+          "value": 1834
+        },
+        {
+          "month": "Mai",
+          "value": 1943
+        },
+        {
+          "month": "Jun",
+          "value": 2041
+        },
+        {
+          "month": "Jul",
+          "value": 2221
+        },
+        {
+          "month": "Ago",
+          "value": 2068
+        },
+        {
+          "month": "Set",
+          "value": 1958
+        },
+        {
+          "month": "Out",
+          "value": 1935
+        },
+        {
+          "month": "Nov",
+          "value": 1729
+        },
+        {
+          "month": "Dez",
+          "value": 1821
+        }
+      ]
+    },
+    {
+      "uid": 13,
+      "name": "Amazonas",
+      "scope": "Unidade da federação",
+      "total": 20297,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 1700
+        },
+        {
+          "month": "Fev",
+          "value": 1546
+        },
+        {
+          "month": "Mar",
+          "value": 1698
+        },
+        {
+          "month": "Abr",
+          "value": 1728
+        },
+        {
+          "month": "Mai",
+          "value": 1825
+        },
+        {
+          "month": "Jun",
+          "value": 1760
+        },
+        {
+          "month": "Jul",
+          "value": 1740
+        },
+        {
+          "month": "Ago",
+          "value": 1734
+        },
+        {
+          "month": "Set",
+          "value": 1688
+        },
+        {
+          "month": "Out",
+          "value": 1653
+        },
+        {
+          "month": "Nov",
+          "value": 1558
+        },
+        {
+          "month": "Dez",
+          "value": 1667
+        }
+      ]
+    },
+    {
+      "uid": 50,
+      "name": "Mato Grosso do Sul",
+      "scope": "Unidade da federação",
+      "total": 19991,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 1609
+        },
+        {
+          "month": "Fev",
+          "value": 1334
+        },
+        {
+          "month": "Mar",
+          "value": 1581
+        },
+        {
+          "month": "Abr",
+          "value": 1772
+        },
+        {
+          "month": "Mai",
+          "value": 1906
+        },
+        {
+          "month": "Jun",
+          "value": 1730
+        },
+        {
+          "month": "Jul",
+          "value": 1840
+        },
+        {
+          "month": "Ago",
+          "value": 1835
+        },
+        {
+          "month": "Set",
+          "value": 1686
+        },
+        {
+          "month": "Out",
+          "value": 1588
+        },
+        {
+          "month": "Nov",
+          "value": 1557
+        },
+        {
+          "month": "Dez",
+          "value": 1553
+        }
+      ]
+    },
+    {
+      "uid": 53,
+      "name": "Distrito Federal",
+      "scope": "Unidade da federação",
+      "total": 15103,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 1191
+        },
+        {
+          "month": "Fev",
+          "value": 1109
+        },
+        {
+          "month": "Mar",
+          "value": 1189
+        },
+        {
+          "month": "Abr",
+          "value": 1255
+        },
+        {
+          "month": "Mai",
+          "value": 1390
+        },
+        {
+          "month": "Jun",
+          "value": 1332
+        },
+        {
+          "month": "Jul",
+          "value": 1407
+        },
+        {
+          "month": "Ago",
+          "value": 1279
+        },
+        {
+          "month": "Set",
+          "value": 1308
+        },
+        {
+          "month": "Out",
+          "value": 1273
+        },
+        {
+          "month": "Nov",
+          "value": 1121
+        },
+        {
+          "month": "Dez",
+          "value": 1249
+        }
+      ]
+    },
+    {
+      "uid": 28,
+      "name": "Sergipe",
+      "scope": "Unidade da federação",
+      "total": 14568,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 1235
+        },
+        {
+          "month": "Fev",
+          "value": 1030
+        },
+        {
+          "month": "Mar",
+          "value": 1156
+        },
+        {
+          "month": "Abr",
+          "value": 1092
+        },
+        {
+          "month": "Mai",
+          "value": 1153
+        },
+        {
+          "month": "Jun",
+          "value": 1336
+        },
+        {
+          "month": "Jul",
+          "value": 1410
+        },
+        {
+          "month": "Ago",
+          "value": 1289
+        },
+        {
+          "month": "Set",
+          "value": 1182
+        },
+        {
+          "month": "Out",
+          "value": 1211
+        },
+        {
+          "month": "Nov",
+          "value": 1197
+        },
+        {
+          "month": "Dez",
+          "value": 1277
+        }
+      ]
+    },
+    {
+      "uid": 11,
+      "name": "Rondônia",
+      "scope": "Unidade da federação",
+      "total": 10513,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 894
+        },
+        {
+          "month": "Fev",
+          "value": 806
+        },
+        {
+          "month": "Mar",
+          "value": 832
+        },
+        {
+          "month": "Abr",
+          "value": 861
+        },
+        {
+          "month": "Mai",
+          "value": 1029
+        },
+        {
+          "month": "Jun",
+          "value": 930
+        },
+        {
+          "month": "Jul",
+          "value": 953
+        },
+        {
+          "month": "Ago",
+          "value": 877
+        },
+        {
+          "month": "Set",
+          "value": 832
+        },
+        {
+          "month": "Out",
+          "value": 818
+        },
+        {
+          "month": "Nov",
+          "value": 830
+        },
+        {
+          "month": "Dez",
+          "value": 851
+        }
+      ]
+    },
+    {
+      "uid": 17,
+      "name": "Tocantins",
+      "scope": "Unidade da federação",
+      "total": 9615,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 813
+        },
+        {
+          "month": "Fev",
+          "value": 696
+        },
+        {
+          "month": "Mar",
+          "value": 777
+        },
+        {
+          "month": "Abr",
+          "value": 743
+        },
+        {
+          "month": "Mai",
+          "value": 884
+        },
+        {
+          "month": "Jun",
+          "value": 857
+        },
+        {
+          "month": "Jul",
+          "value": 886
+        },
+        {
+          "month": "Ago",
+          "value": 787
+        },
+        {
+          "month": "Set",
+          "value": 817
+        },
+        {
+          "month": "Out",
+          "value": 785
+        },
+        {
+          "month": "Nov",
+          "value": 757
+        },
+        {
+          "month": "Dez",
+          "value": 813
+        }
+      ]
+    },
+    {
+      "uid": 12,
+      "name": "Acre",
+      "scope": "Unidade da federação",
+      "total": 4219,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 378
+        },
+        {
+          "month": "Fev",
+          "value": 314
+        },
+        {
+          "month": "Mar",
+          "value": 339
+        },
+        {
+          "month": "Abr",
+          "value": 348
+        },
+        {
+          "month": "Mai",
+          "value": 396
+        },
+        {
+          "month": "Jun",
+          "value": 378
+        },
+        {
+          "month": "Jul",
+          "value": 359
+        },
+        {
+          "month": "Ago",
+          "value": 371
+        },
+        {
+          "month": "Set",
+          "value": 344
+        },
+        {
+          "month": "Out",
+          "value": 327
+        },
+        {
+          "month": "Nov",
+          "value": 325
+        },
+        {
+          "month": "Dez",
+          "value": 340
+        }
+      ]
+    },
+    {
+      "uid": 16,
+      "name": "Amapá",
+      "scope": "Unidade da federação",
+      "total": 3977,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 341
+        },
+        {
+          "month": "Fev",
+          "value": 280
+        },
+        {
+          "month": "Mar",
+          "value": 329
+        },
+        {
+          "month": "Abr",
+          "value": 333
+        },
+        {
+          "month": "Mai",
+          "value": 424
+        },
+        {
+          "month": "Jun",
+          "value": 352
+        },
+        {
+          "month": "Jul",
+          "value": 354
+        },
+        {
+          "month": "Ago",
+          "value": 344
+        },
+        {
+          "month": "Set",
+          "value": 294
+        },
+        {
+          "month": "Out",
+          "value": 312
+        },
+        {
+          "month": "Nov",
+          "value": 309
+        },
+        {
+          "month": "Dez",
+          "value": 305
+        }
+      ]
+    },
+    {
+      "uid": 14,
+      "name": "Roraima",
+      "scope": "Unidade da federação",
+      "total": 3337,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 271
+        },
+        {
+          "month": "Fev",
+          "value": 251
+        },
+        {
+          "month": "Mar",
+          "value": 276
+        },
+        {
+          "month": "Abr",
+          "value": 239
+        },
+        {
+          "month": "Mai",
+          "value": 293
+        },
+        {
+          "month": "Jun",
+          "value": 286
+        },
+        {
+          "month": "Jul",
+          "value": 335
+        },
+        {
+          "month": "Ago",
+          "value": 313
+        },
+        {
+          "month": "Set",
+          "value": 270
+        },
+        {
+          "month": "Out",
+          "value": 271
+        },
+        {
+          "month": "Nov",
+          "value": 250
+        },
+        {
+          "month": "Dez",
+          "value": 282
+        }
+      ]
+    }
+  ],
+  "latestBySex": [
+    {
+      "uid": 0,
+      "name": "Todos",
+      "total": 1528085,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 124307
+        },
+        {
+          "month": "Fev",
+          "value": 111764
+        },
+        {
+          "month": "Mar",
+          "value": 122779
+        },
+        {
+          "month": "Abr",
+          "value": 122434
+        },
+        {
+          "month": "Mai",
+          "value": 141267
+        },
+        {
+          "month": "Jun",
+          "value": 141783
+        },
+        {
+          "month": "Jul",
+          "value": 141907
+        },
+        {
+          "month": "Ago",
+          "value": 134226
+        },
+        {
+          "month": "Set",
+          "value": 122932
+        },
+        {
+          "month": "Out",
+          "value": 123384
+        },
+        {
+          "month": "Nov",
+          "value": 118002
+        },
+        {
+          "month": "Dez",
+          "value": 123300
+        }
+      ]
+    },
+    {
+      "uid": 1,
+      "name": "Masculino",
+      "total": 832582,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 68174
+        },
+        {
+          "month": "Fev",
+          "value": 61170
+        },
+        {
+          "month": "Mar",
+          "value": 67339
+        },
+        {
+          "month": "Abr",
+          "value": 66653
+        },
+        {
+          "month": "Mai",
+          "value": 76323
+        },
+        {
+          "month": "Jun",
+          "value": 77004
+        },
+        {
+          "month": "Jul",
+          "value": 77278
+        },
+        {
+          "month": "Ago",
+          "value": 72979
+        },
+        {
+          "month": "Set",
+          "value": 66737
+        },
+        {
+          "month": "Out",
+          "value": 67017
+        },
+        {
+          "month": "Nov",
+          "value": 64401
+        },
+        {
+          "month": "Dez",
+          "value": 67507
+        }
+      ]
+    },
+    {
+      "uid": 2,
+      "name": "Feminino",
+      "total": 695002,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 56071
+        },
+        {
+          "month": "Fev",
+          "value": 50555
+        },
+        {
+          "month": "Mar",
+          "value": 55395
+        },
+        {
+          "month": "Abr",
+          "value": 55736
+        },
+        {
+          "month": "Mai",
+          "value": 64900
+        },
+        {
+          "month": "Jun",
+          "value": 64741
+        },
+        {
+          "month": "Jul",
+          "value": 64597
+        },
+        {
+          "month": "Ago",
+          "value": 61203
+        },
+        {
+          "month": "Set",
+          "value": 56156
+        },
+        {
+          "month": "Out",
+          "value": 56329
+        },
+        {
+          "month": "Nov",
+          "value": 53569
+        },
+        {
+          "month": "Dez",
+          "value": 55750
+        }
+      ]
+    },
+    {
+      "uid": 9,
+      "name": "Branco/Ignorado",
+      "total": 501,
+      "months": [
+        {
+          "month": "Jan",
+          "value": 62
+        },
+        {
+          "month": "Fev",
+          "value": 39
+        },
+        {
+          "month": "Mar",
+          "value": 45
+        },
+        {
+          "month": "Abr",
+          "value": 45
+        },
+        {
+          "month": "Mai",
+          "value": 44
+        },
+        {
+          "month": "Jun",
+          "value": 38
+        },
+        {
+          "month": "Jul",
+          "value": 32
+        },
+        {
+          "month": "Ago",
+          "value": 44
+        },
+        {
+          "month": "Set",
+          "value": 39
+        },
+        {
+          "month": "Out",
+          "value": 38
+        },
+        {
+          "month": "Nov",
+          "value": 32
+        },
+        {
+          "month": "Dez",
+          "value": 43
+        }
+      ]
+    }
+  ],
+  "nationalMonthly": [
+    {
+      "year": 2020,
+      "month": "Jan",
+      "period": "2020-01",
+      "value": 110932
+    },
+    {
+      "year": 2020,
+      "month": "Fev",
+      "period": "2020-02",
+      "value": 104255
+    },
+    {
+      "year": 2020,
+      "month": "Mar",
+      "period": "2020-03",
+      "value": 117888
+    },
+    {
+      "year": 2020,
+      "month": "Abr",
+      "period": "2020-04",
+      "value": 123596
+    },
+    {
+      "year": 2020,
+      "month": "Mai",
+      "period": "2020-05",
+      "value": 154511
+    },
+    {
+      "year": 2020,
+      "month": "Jun",
+      "period": "2020-06",
+      "value": 140663
+    },
+    {
+      "year": 2020,
+      "month": "Jul",
+      "period": "2020-07",
+      "value": 145262
+    },
+    {
+      "year": 2020,
+      "month": "Ago",
+      "period": "2020-08",
+      "value": 141329
+    },
+    {
+      "year": 2020,
+      "month": "Set",
+      "period": "2020-09",
+      "value": 127115
+    },
+    {
+      "year": 2020,
+      "month": "Out",
+      "period": "2020-10",
+      "value": 128797
+    },
+    {
+      "year": 2020,
+      "month": "Nov",
+      "period": "2020-11",
+      "value": 122598
+    },
+    {
+      "year": 2020,
+      "month": "Dez",
+      "period": "2020-12",
+      "value": 139878
+    },
+    {
+      "year": 2021,
+      "month": "Jan",
+      "period": "2021-01",
+      "value": 149498
+    },
+    {
+      "year": 2021,
+      "month": "Fev",
+      "period": "2021-02",
+      "value": 135073
+    },
+    {
+      "year": 2021,
+      "month": "Mar",
+      "period": "2021-03",
+      "value": 207106
+    },
+    {
+      "year": 2021,
+      "month": "Abr",
+      "period": "2021-04",
+      "value": 194531
+    },
+    {
+      "year": 2021,
+      "month": "Mai",
+      "period": "2021-05",
+      "value": 180855
+    },
+    {
+      "year": 2021,
+      "month": "Jun",
+      "period": "2021-06",
+      "value": 170283
+    },
+    {
+      "year": 2021,
+      "month": "Jul",
+      "period": "2021-07",
+      "value": 156727
+    },
+    {
+      "year": 2021,
+      "month": "Ago",
+      "period": "2021-08",
+      "value": 141752
+    },
+    {
+      "year": 2021,
+      "month": "Set",
+      "period": "2021-09",
+      "value": 124202
+    },
+    {
+      "year": 2021,
+      "month": "Out",
+      "period": "2021-10",
+      "value": 123525
+    },
+    {
+      "year": 2021,
+      "month": "Nov",
+      "period": "2021-11",
+      "value": 118246
+    },
+    {
+      "year": 2021,
+      "month": "Dez",
+      "period": "2021-12",
+      "value": 130851
+    },
+    {
+      "year": 2022,
+      "month": "Jan",
+      "period": "2022-01",
+      "value": 166126
+    },
+    {
+      "year": 2022,
+      "month": "Fev",
+      "period": "2022-02",
+      "value": 133972
+    },
+    {
+      "year": 2022,
+      "month": "Mar",
+      "period": "2022-03",
+      "value": 121423
+    },
+    {
+      "year": 2022,
+      "month": "Abr",
+      "period": "2022-04",
+      "value": 116992
+    },
+    {
+      "year": 2022,
+      "month": "Mai",
+      "period": "2022-05",
+      "value": 131226
+    },
+    {
+      "year": 2022,
+      "month": "Jun",
+      "period": "2022-06",
+      "value": 135693
+    },
+    {
+      "year": 2022,
+      "month": "Jul",
+      "period": "2022-07",
+      "value": 137561
+    },
+    {
+      "year": 2022,
+      "month": "Ago",
+      "period": "2022-08",
+      "value": 126129
+    },
+    {
+      "year": 2022,
+      "month": "Set",
+      "period": "2022-09",
+      "value": 118621
+    },
+    {
+      "year": 2022,
+      "month": "Out",
+      "period": "2022-10",
+      "value": 120206
+    },
+    {
+      "year": 2022,
+      "month": "Nov",
+      "period": "2022-11",
+      "value": 115041
+    },
+    {
+      "year": 2022,
+      "month": "Dez",
+      "period": "2022-12",
+      "value": 121276
+    },
+    {
+      "year": 2023,
+      "month": "Jan",
+      "period": "2023-01",
+      "value": 117428
+    },
+    {
+      "year": 2023,
+      "month": "Fev",
+      "period": "2023-02",
+      "value": 105422
+    },
+    {
+      "year": 2023,
+      "month": "Mar",
+      "period": "2023-03",
+      "value": 120459
+    },
+    {
+      "year": 2023,
+      "month": "Abr",
+      "period": "2023-04",
+      "value": 121257
+    },
+    {
+      "year": 2023,
+      "month": "Mai",
+      "period": "2023-05",
+      "value": 129973
+    },
+    {
+      "year": 2023,
+      "month": "Jun",
+      "period": "2023-06",
+      "value": 129326
+    },
+    {
+      "year": 2023,
+      "month": "Jul",
+      "period": "2023-07",
+      "value": 131865
+    },
+    {
+      "year": 2023,
+      "month": "Ago",
+      "period": "2023-08",
+      "value": 123990
+    },
+    {
+      "year": 2023,
+      "month": "Set",
+      "period": "2023-09",
+      "value": 119304
+    },
+    {
+      "year": 2023,
+      "month": "Out",
+      "period": "2023-10",
+      "value": 121777
+    },
+    {
+      "year": 2023,
+      "month": "Nov",
+      "period": "2023-11",
+      "value": 122826
+    },
+    {
+      "year": 2023,
+      "month": "Dez",
+      "period": "2023-12",
+      "value": 121983
+    },
+    {
+      "year": 2024,
+      "month": "Jan",
+      "period": "2024-01",
+      "value": 120977
+    },
+    {
+      "year": 2024,
+      "month": "Fev",
+      "period": "2024-02",
+      "value": 115446
+    },
+    {
+      "year": 2024,
+      "month": "Mar",
+      "period": "2024-03",
+      "value": 133329
+    },
+    {
+      "year": 2024,
+      "month": "Abr",
+      "period": "2024-04",
+      "value": 132980
+    },
+    {
+      "year": 2024,
+      "month": "Mai",
+      "period": "2024-05",
+      "value": 137658
+    },
+    {
+      "year": 2024,
+      "month": "Jun",
+      "period": "2024-06",
+      "value": 132040
+    },
+    {
+      "year": 2024,
+      "month": "Jul",
+      "period": "2024-07",
+      "value": 135662
+    },
+    {
+      "year": 2024,
+      "month": "Ago",
+      "period": "2024-08",
+      "value": 132418
+    },
+    {
+      "year": 2024,
+      "month": "Set",
+      "period": "2024-09",
+      "value": 126258
+    },
+    {
+      "year": 2024,
+      "month": "Out",
+      "period": "2024-10",
+      "value": 124300
+    },
+    {
+      "year": 2024,
+      "month": "Nov",
+      "period": "2024-11",
+      "value": 117698
+    },
+    {
+      "year": 2024,
+      "month": "Dez",
+      "period": "2024-12",
+      "value": 123249
+    },
+    {
+      "year": 2025,
+      "month": "Jan",
+      "period": "2025-01",
+      "value": 124307
+    },
+    {
+      "year": 2025,
+      "month": "Fev",
+      "period": "2025-02",
+      "value": 111764
+    },
+    {
+      "year": 2025,
+      "month": "Mar",
+      "period": "2025-03",
+      "value": 122779
+    },
+    {
+      "year": 2025,
+      "month": "Abr",
+      "period": "2025-04",
+      "value": 122434
+    },
+    {
+      "year": 2025,
+      "month": "Mai",
+      "period": "2025-05",
+      "value": 141267
+    },
+    {
+      "year": 2025,
+      "month": "Jun",
+      "period": "2025-06",
+      "value": 141783
+    },
+    {
+      "year": 2025,
+      "month": "Jul",
+      "period": "2025-07",
+      "value": 141907
+    },
+    {
+      "year": 2025,
+      "month": "Ago",
+      "period": "2025-08",
+      "value": 134226
+    },
+    {
+      "year": 2025,
+      "month": "Set",
+      "period": "2025-09",
+      "value": 122932
+    },
+    {
+      "year": 2025,
+      "month": "Out",
+      "period": "2025-10",
+      "value": 123384
+    },
+    {
+      "year": 2025,
+      "month": "Nov",
+      "period": "2025-11",
+      "value": 118002
+    },
+    {
+      "year": 2025,
+      "month": "Dez",
+      "period": "2025-12",
+      "value": 123300
+    }
+  ]
+}
