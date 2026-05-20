@@ -26,6 +26,13 @@
       <section class="content-grid">
         <section class="panel">
           <div class="panel-header">
+            <h2>Analise automatica</h2>
+          </div>
+          <div id="datasus-analysis" class="analysis-text"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
             <h2>Evolucao anual</h2>
           </div>
           <div class="chart-shell">
@@ -39,6 +46,23 @@
           </div>
           <div class="chart-shell">
             <canvas id="datasus-month-chart"></canvas>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Projecao linear</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Periodo</th>
+                  <th>Obitos projetados</th>
+                </tr>
+              </thead>
+              <tbody id="datasus-forecast-body"></tbody>
+            </table>
           </div>
         </section>
 
@@ -74,6 +98,65 @@
                 </tr>
               </thead>
               <tbody id="datasus-sex-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Participacao dos estados</h2>
+          </div>
+          <div id="datasus-territorial-text" class="analysis-text compact"></div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>UF</th>
+                  <th>Obitos</th>
+                  <th>Participacao</th>
+                  <th>Var. ano anterior</th>
+                </tr>
+              </thead>
+              <tbody id="datasus-state-share-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Taxas por 100 mil habitantes</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>UF</th>
+                  <th>Obitos</th>
+                  <th>Populacao</th>
+                  <th>Taxa</th>
+                </tr>
+              </thead>
+              <tbody id="datasus-rate-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Atipicidade por UF</h2>
+          </div>
+          <div id="datasus-anomaly-text" class="analysis-text compact"></div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>UF</th>
+                  <th>Periodo</th>
+                  <th>Obitos</th>
+                  <th>Desvio</th>
+                </tr>
+              </thead>
+              <tbody id="datasus-anomaly-body"></tbody>
             </table>
           </div>
         </section>

@@ -24,3 +24,20 @@ docs/index.html
 
 Por padrao, a configuracao coleta obitos totais por residencia para Brasil,
 regioes e UFs, alem da distribuicao por sexo, nos anos de 2020 a 2025.
+
+## Analises incluidas
+
+O painel segue a mesma logica analitica do projeto `analisador-temporal`,
+adaptada para mortalidade CID-10:
+
+- serie anual e serie mensal nacional;
+- texto automatico com tendencia, variacao acumulada, sazonalidade e pontos
+  atipicos;
+- comparacao com o ano anterior;
+- projecao linear simples dos proximos tres meses;
+- participacao dos estados no total nacional;
+- taxas por 100 mil habitantes usando `docs/data/populacao_uf_ano.csv`;
+- atipicidade mensal por UF com criterio de dois desvios-padrao.
+
+As taxas usam a mesma base populacional estadual de referencia do analisador
+temporal: Projecao da Populacao do IBGE/SIDRA, tabela 7358, edicao 2018.

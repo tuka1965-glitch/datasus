@@ -170,6 +170,26 @@ td:nth-child(3) {
   padding: 18px;
 }
 
+.analysis-text {
+  display: grid;
+  gap: 10px;
+  padding: 16px 18px 18px;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.analysis-text.compact {
+  padding-bottom: 4px;
+}
+
+.analysis-text p {
+  margin: 0;
+}
+
+.analysis-text strong {
+  font-weight: 700;
+}
+
 .filter-row {
   display: flex;
   flex-wrap: wrap;
